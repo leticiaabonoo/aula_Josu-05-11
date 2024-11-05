@@ -1,0 +1,39 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Oswald:wght@200.700&display=swap');
+
+.oswald-titulo {
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: 20;
+font-style: normal;
+}
+
+.flex-container {
+display: flex;
+background-color: rgb(240, 235, 227);
+flex-flow: row nowrap;
+justify-content: space-between;
+align-items: center;
+}
+
+img {
+width: 50%;
+padding: 30px;
+border-radius: 50px;
+opacity: 0.5;
+
+}
+h1 {
+font-size: 50px;
+font-family:"Oswald";
+padding: 30px;
+text-align: left;
+position: relative;
+left: 40px;
+line-height: 60px;
+color: rgb(140, 52, 52);
+z-index: 1;
+}
+h1:hover {
+transform: scale(1.05);
+}
